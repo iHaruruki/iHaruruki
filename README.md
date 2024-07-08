@@ -4,8 +4,8 @@
 - 🔭 I’m currently working on **Robot development using ROS**
 - 🌱 I’m currently learning **Security**
 <!-- - 📫 How to reach me -->
-
-<h3 align="left">Connect with me: **isono.genko@outlook.jp**</h3>
+isono.genko@outlook.jp
+<h3 align="left">Connect with me: [isono.genko@outlook.jp](isono.genko@outlook.jp)</h3>
 <p align="left">
 </p>
 
