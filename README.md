@@ -2,12 +2,10 @@
 <h3 align="center">University students in Japan</h3>
 
 - 🔭 I’m currently working on **Robot development using ROS**
-
 - 🌱 I’m currently learning **Security**
+<!-- - 📫 How to reach me -->
 
-- 📫 How to reach me **isono.genko@outlook.jp**
-
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me: **isono.genko@outlook.jp**</h3>
 <p align="left">
 </p>
 
