@@ -1,6 +1,4 @@
-## Hi there 👋
-
-<h1 align="center">Hi 👋, I'm Haruki</h1>
+<h1 align="center">Hi,I'm Haruki</h1>
 <h3 align="center">University students in Japan</h3>
 
 - 🔭 I’m currently working on **Robot development using ROS**
