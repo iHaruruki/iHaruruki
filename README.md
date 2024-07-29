@@ -1,19 +1,16 @@
-<!-- 1. GitHub usernameを変更 -->
+<!-- あいさつ -->
 # Hi! :wave: Welcome to my GitHub! 😊
 
-<!-- 2. プロフィールや連絡先を変更 -->
-## Profile
+<!-- プロフィール -->
+## Profile 📝
 
 - I'm a university students in Japan.
 - I’m currently learning ROS (Robt Operating System)
 
 
-<!-- 3. 好きな技術スタックに変更 -->
-<!-- ライトモート：theme=light, ダークモート：theme=dark -->
-<!-- アイコンの選択肢一覧：https://arc.net/l/quote/zizyykfh -->
-### 🌱 Skills
+<!-- Skills -->
+### Skills 🌱
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=windows,cpp,python,git,github,ubuntu,vscode,visualstudio,androidstudio,azure,matlab" />
-<br>
 
 ## Stats :chart_with_downwards_trend:
 ![](https://raw.githubusercontent.com/iHaruruki/iHaruruki/output/github-contribution-grid-snake.svg)
