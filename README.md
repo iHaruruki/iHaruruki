@@ -13,7 +13,8 @@
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=windows,cpp,python,git,github,ubuntu,vscode,visualstudio,androidstudio,azure,matlab" />
 
 ## Stats :chart_with_downwards_trend:
-![](https://raw.githubusercontent.com/iHaruruki/iHaruruki/output/github-contribution-grid-snake.svg)
+<!--![](https://raw.githubusercontent.com/iHaruruki/iHaruruki/output/github-contribution-grid-snake.svg)-->
+![](./profile-3d-contrib/profile-green-animate.svg)<!--profile-3d-contrib-->
 
 <p align="left">
   <a href="https://github.com/iHaruruki">
