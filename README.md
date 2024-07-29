@@ -1,11 +1,11 @@
 <!-- 1. GitHub usernameを変更 -->
-# Hi: :wave: Welcome to my GitHub! 😊
+# Hi! :wave: Welcome to my GitHub! 😊
 
 <!-- 2. プロフィールや連絡先を変更 -->
 ## Profile
 
-I'm a university students in Japan.
-I’m currently learning ROS (Robt Operating System)
+- I'm a university students in Japan.
+- I’m currently learning ROS (Robt Operating System)
 
 
 <!-- 3. 好きな技術スタックに変更 -->
