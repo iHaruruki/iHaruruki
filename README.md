@@ -15,7 +15,7 @@
 ## Stats :chart_with_downwards_trend:
 ![](https://raw.githubusercontent.com/iHaruruki/iHaruruki/output/github-contribution-grid-snake.svg)
 
-<p align="right">
+<p align="left">
   <a href="https://github.com/iHaruruki">
     <img height="20" src="https://komarev.com/ghpvc/?username=iHaruruki" />
   </a>
@@ -24,11 +24,16 @@
   </a>
 </p>
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iHaruruki&theme=gruvbox)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iHaruruki&theme=gruvbox)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iHaruruki&theme=gruvbox)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=iHaruruki&theme=gruvbox)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iHaruruki&theme=gruvbox&utcOffset=9)
+<!--Profile details card-->
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iHaruruki&theme=github_dark) 
+<!--Top languages used in repository card-->
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iHaruruki&theme=github_dark)
+<!--Top languages in commits card-->
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iHaruruki&theme=github_dark)
+<!--GitHub stats card-->
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=iHaruruki&theme=github_dark)
+<!--Productive time card-->
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iHaruruki&theme=github_dark&utcOffset=9)
 
 ## Trophy :trophy:
 ![trophy](https://github-profile-trophy.vercel.app/?username=iHaruruki&theme=gruvbox)
