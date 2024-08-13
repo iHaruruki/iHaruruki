@@ -27,9 +27,9 @@
 <!--GitHub Profile Summary Cards-->
 ![Profile details card](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iHaruruki&theme=2077)
 ![GitHub stats card](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=iHaruruki&theme=2077)
-![Top languages in commits card](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iHaruruki&theme=2077&utcOffset={utcOffset})
-![Top languages used in repository card](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iHaruruki&theme=2077&exclude={exclude})
-![Top languages in commits card](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iHaruruki&theme=2077&exclude={exclude})
+![Top languages in commits card](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iHaruruki&theme=2077&utcOffset=9)
+![Top languages used in repository card](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iHaruruki&theme=2077)
+![Top languages in commits card](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iHaruruki&theme=2077)
 
 
 <!--トロフィー-->
