@@ -1,29 +1,50 @@
 name: GitHub-Profile-Summary-Cards
-
 on:
-  schedule: # execute every 24 hours
-    - cron: "* */24 * * *"
+  # run automatically every 24 hours
+  schedule:
+    - cron: "0 0 * * *"
+
+  # allows to manually run the job at any time
   workflow_dispatch:
 
+  # run on every push on the main branch
+  # don't forget to change if you're using 'master' branch
+  push:
+    branches:
+    - main
 jobs:
-  build:
+  github-metrics:
     runs-on: ubuntu-latest
-    name: generate-github-profile-summary-cards
-    permissions:
-      contents: write
-
     steps:
-      - uses: actions/checkout@v4
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env: # default use ${{ secrets.SUMMARY_GITHUB_TOKEN }}, you should replace with your personal access token
-          GITHUB_TOKEN: ${{ secrets.SAMPLE_SECRETS }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          # BRANCH_NAME is optional, default to main, branch name to push cards
-          BRANCH_NAME: "main"
-          # UTC_OFFSET is optional, default to zero
-          UTC_OFFSET: 9
-          # EXCLUDE is an optional comma seperated list of languages to exclude, defaults to ""
-          EXCLUDE: ""
-          # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
-          AUTO_PUSH: true
+    - name: Default metrics
+      uses: lowlighter/metrics@latest
+      with:
+        filename: output/metrics.base.svg
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        base: header, activity, community, repositories, metadata
+    - name: Most used (with details)
+      uses: lowlighter/metrics@latest
+      with:
+        filename: output/details.svg
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        base: ""
+        repositories_skipped: chatbot-ui, gitHub-readme-stats-clone, PL0-compiler
+        plugin_languages: yes
+        plugin_languages_ignored: >-
+          tex, less, qmake, lex, gnuplot
+        plugin_languages_details: bytes-size, percentage
+        plugin_languages_limit: 8
+        plugin_followup: yes
+        plugin_followup_indepth: yes
+    - name: Compact display
+      uses: lowlighter/metrics@latest
+      with:
+        filename: output/metrics.plugin.achievements.compact.svg
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        base: ""
+        plugin_achievements: yes
+        plugin_achievements_only: >-
+          polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+          scripter, packager, explorer, infographile, manager
+        plugin_achievements_display: compact
+        plugin_achievements_threshold: X
