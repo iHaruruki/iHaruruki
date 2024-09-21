@@ -25,13 +25,18 @@
 </p>
 
 <!--GitHub Profile Summary Cards-->
-![Profile details card](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iHaruruki&theme=2077)
+<!--![Profile details card](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iHaruruki&theme=2077)
 ![GitHub stats card](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=iHaruruki&theme=2077)
 ![Top languages in commits card](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iHaruruki&theme=2077&utcOffset=9)
 ![Top languages used in repository card](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iHaruruki&theme=2077)
-![Top languages in commits card](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iHaruruki&theme=2077)
+![Top languages in commits card](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iHaruruki&theme=2077)-->
+
+<!--GitHub Profile Summary Cards-->
+![Haruki's GitHub stats](https://github-readme-stats.vercel.app/api?username=iHaruruki&show_icons=true&theme=transparent)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iHaruruki&layout=donut&theme=transparent)](https://github.com/iHaruruki/github-readme-stats)
+![Profile details card](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iHaruruki&theme=transparent)
 
 
 <!--トロフィー-->
 ## Trophy :trophy:
-![trophy](https://github-profile-trophy.vercel.app/?username=iHaruruki&theme=gruvbox)
+![trophy](https://github-profile-trophy.vercel.app/?username=iHaruruki&theme=algolia)
