@@ -12,8 +12,19 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: Configure git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
+      - name: Pull latest changes
+        run: git pull origin main
+      - name: Commit and push changes
+        run: |
+          git add .
+          git commit -m "Update summary cards"
+          git push
