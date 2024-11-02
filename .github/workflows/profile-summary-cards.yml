@@ -8,30 +8,22 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Configure git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - uses: actions/checkout@v4
       - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
+        env: # default use ${{ secrets.SUMMARY_GITHUB_TOKEN }}, you should replace with your personal access token
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-      - name: Pull latest changes
-        run: git pull origin main
-      - name: Check for changes
-        run: |
-          git add .
-          if git diff-index --quiet HEAD --; then
-          echo "No changes to commit"
-          exit 0
-          fi
-      - name: Commit and push changes
-        if: success()
-        run: |
-          git commit -m "Update summary cards"
-          git push
+          # BRANCH_NAME is optional, default to main, branch name to push cards
+          BRANCH_NAME: "main"
+          # UTC_OFFSET is optional, default to zero
+          UTC_OFFSET: 8
+          # EXCLUDE is an optional comma seperated list of languages to exclude, defaults to ""
+          EXCLUDE: ""
+          # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
+          AUTO_PUSH: true
