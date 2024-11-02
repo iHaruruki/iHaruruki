@@ -23,8 +23,15 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
       - name: Pull latest changes
         run: git pull origin main
-      - name: Commit and push changes
+      - name: Check for changes
         run: |
           git add .
+          if git diff-index --quiet HEAD --; then
+          echo "No changes to commit"
+          exit 0
+          fi
+      - name: Commit and push changes
+        if: success()
+        run: |
           git commit -m "Update summary cards"
           git push
