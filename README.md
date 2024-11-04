@@ -5,7 +5,7 @@
 ## Profile 📝
 
 - I'm a university students in Japan.
-- I’m currently learning ROS (Robt Operating System)
+- I’m currently learning ROS (Robt Operating System).
 
 
 <!-- Skills -->
