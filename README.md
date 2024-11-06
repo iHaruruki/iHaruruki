@@ -31,4 +31,4 @@
 
 <!--トロフィー-->
 ## Trophy :trophy:
-![trophy](https://github-profile-trophy.vercel.app/?username=iHaruruki&theme=onestar)
+[trophy](https://github-profile-trophy.vercel.app/?username=iHaruruki&theme=onestar)
