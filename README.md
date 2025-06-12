@@ -10,7 +10,7 @@
 
 <!-- Skills -->
 ### Skills 🌱
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=windows,cpp,python,git,github,ubuntu,vscode,visualstudio,androidstudio,azure,matlab" />
+<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=ros,cpp,python,git,github,ubuntu,vscode,visualstudio,opencv,raspberrypi,arduino" />
 
 ## Stats :chart_with_downwards_trend:
 <!--Profile Views-->
