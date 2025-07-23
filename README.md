@@ -30,7 +30,6 @@
 [![](https://raw.githubusercontent.com/iHaruruki/iHaruruki/main/profile-summary-card-output/react/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/iHaruruki/iHaruruki/main/profile-summary-card-output/react/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
 <!--トロフィー-->
-<!--
+
 ## Trophy :trophy:
-![trophy](https://github-profile-trophy.vercel.app/?username=iHaruruki&theme=onestar)
--->
+<!--![trophy](https://github-profile-trophy.vercel.app/?username=iHaruruki&theme=onestar)-->
