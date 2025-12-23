@@ -31,5 +31,6 @@
 
 <!--トロフィー-->
 
-<!--## Trophy :trophy:
-![trophy](https://github-profile-trophy.vercel.app/?username=iHaruruki&theme=onestar)-->
+## Trophy :trophy:
+<!--![trophy](https://github-profile-trophy.vercel.app/?username=iHaruruki&theme=onestar)-->
+[![trophy](https://github-profile-trophy.vercel.app/?username=iHaruruki)](https://github.com/iHaruruki/github-profile-trophy)
